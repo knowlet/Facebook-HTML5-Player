@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Facebook HTML5 Player
 // @namespace    http://knowlet3389.blogspot.tw
-// @version      1.0
+// @version      1.1
 // @description  I hate flash player.
 // @author       KNowlet
-// @match        https://*.facebook.com/*
+// @include      https://*.facebook.com/*
+// @exclude      https://*.facebook.com/ajax/*
 // @grant        none
 // @downloadURL  https://github.com/knowlet/Facebook-HTML5-Player/raw/master/fb-html5-player.user.js
 // ==/UserScript==
