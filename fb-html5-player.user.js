@@ -10,7 +10,7 @@
 // @downloadURL  https://github.com/knowlet/Facebook-HTML5-Player/raw/master/fb-html5-player.user.js
 // ==/UserScript==
 var handle = setInterval(function() {
-    var flash = document.querySelector(".videoStage embed");
+    var flash = document.querySelector(".swfObject embed");
     if (flash) {
         // clearInterval(handle);
         (function(f) {    
