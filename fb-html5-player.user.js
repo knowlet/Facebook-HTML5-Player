@@ -23,8 +23,7 @@ var handle = setInterval(function() {
                 v.hd = params.video_data[0].hd_src;
             })(flashvars, vData);
             var htmlPlayer = document.createElement("video");
-            htmlPlayer.setAttribute("width", f.width);
-            htmlPlayer.setAttribute("height", f.height);
+            htmlPlayer.setAttribute("height", "100%");
             htmlPlayer. setAttribute("controls", "");
             htmlPlayer. setAttribute("autoplay", "");
             var vSource = document.createElement("source");
